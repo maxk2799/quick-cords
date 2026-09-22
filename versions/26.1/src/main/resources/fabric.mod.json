@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "quickcords",
+	"version": "${version}",
+	"name": "Quick Cords",
+	"description": "Press a key to copy your coordinates to the clipboard.",
+	"authors": [
+		"Meqxs"
+	],
+	"license": "MIT",
+	"icon": "assets/quickcords/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.maxk.quickcords.client.QuickCordsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
