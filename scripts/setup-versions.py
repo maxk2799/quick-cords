@@ -184,7 +184,7 @@ FABRIC_MOD = """{{
 	"id": "quickcords",
 	"version": "${{version}}",
 	"name": "Quick Cords",
-	"description": "Press a key to copy your coordinates to the clipboard.",
+	"description": "Copy your coordinates with one key. Default is C; rebind it in Options → Controls → Quick Cords.",
 	"authors": [
 		"Meqxs"
 	],
